@@ -1,0 +1,413 @@
+.versus_versus_container{
+    width: 100%;
+    box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .header__versus{
+    -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+  }
+  .yufhcn{
+    -webkit-box-flex: 0;
+          flex-grow: 0;
+          max-width: 25%;
+          flex-basis: 25%;
+          -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+  }
+  .yrfhdjs{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .srgyi{
+    -webkit-box-flex: 0;
+          flex-grow: 0;
+          max-width: 33.3333%;
+          flex-basis: 33.3333%;
+          flex-flow: column wrap;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+  }
+  .versus_ppsij{
+    background-color: rgb(255, 255, 255);
+    font-family: Tiempos, serif;
+    color: rgb(0, 0, 0);
+  }
+  .tguqn{
+    flex-flow: wrap;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+  }
+  .acyuhr{
+    flex-flow: column wrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .ccytb{
+   
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .ertyuh{
+    font-family: CalibreMedium, sans-serif;
+    margin-bottom: 2px;
+    margin-top: 4px;
+  }
+  .ttghsb{
+    font-family: Calibre, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.015em;
+    overflow-wrap: break-word;
+    align-items: flex-start;
+    text-align: left;
+    margin: 8px 0px;
+  }
+  .time_score_time{
+    margin-left: 2px;
+  }
+  .awy_tea_content{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .teamgg__gg_con{
+    font-family: Calibre, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.015em;
+    overflow-wrap: break-word;
+    align-items: flex-end;
+    text-align: right;
+    margin: 8px 0px;
+  }
+  .ffjjk{
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .xg_conn{
+    webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .scorers__con_conn{
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .team_team_home{
+    webkit-box-pack: end;
+      justify-content: flex-end;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      -webkit-box-flex: 0;
+      flex-grow: 0;
+      max-width: 33.3333%;
+      flex-basis: 33.3333%;
+  }
+  .hhdysi{
+    border-bottom: 1px solid #f0f0ee;
+    width: 100%;
+  }
+  .team_away_away{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+  .away_team_team_away{
+    display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+  }
+  .kkyju_away_team{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .mmsjik{
+    font-family: CalibreMedium, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--Gray80);
+    margin-top: 16px;
+  }
+  .time_time__scores{
+    -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      -webkit-box-flex: 0;
+      flex-grow: 0;
+      max-width: 33.3333%;
+      flex-basis: 33.3333%;
+  }
+  .container_home__team{
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .team__home_name{
+    -webkit-box-pack: center;
+      justify-content: center;
+      align-items: flex-end;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      -webkit-box-flex: 0;
+      flex-grow: 0;
+      max-width: 100%;
+      flex-basis: 100%;
+  }
+  .image_holder__image{
+    margin: auto;
+    padding: 16px 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 56px;
+  }
+  
+  .image__ttysh{
+  
+    position: relative;
+    visibility: visible;
+    width: 56px;
+  }
+  .ksijy__image{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  
+  .span__spann_span{
+    box-sizing: border-box;
+      display: inline-block;
+      overflow: hidden;
+      width: initial;
+      height: initial;
+      background: none;
+      opacity: 1;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      max-width: 100%;
+  }
+  .iijuys_spans{
+    box-sizing: border-box;
+    display: block;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  .ujsii{
+    display: block;
+      max-width: 100%;
+      width: initial;
+      height: initial;
+      background: none;
+      opacity: 1;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+  .name_team_team_home{
+    font-family: CalibreMedium, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--Gray80);
+    margin-top: 16px;
+    text-align: right;
+  }
+  .iiop_times__score{
+    width: 100%;
+    font-family: Calibre, sans-serif;
+  }
+  .astyfi{
+    flex-flow: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .home_team_number_team{
+    flex-flow: wrap;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      -webkit-box-flex: 0;
+      flex-grow: 0;
+      max-width: 16.6667%;
+      flex-basis: 16.6667%;
+  }
+  .team_hhysk_num{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 100%;
+    font-size: 48px;
+  }
+  .time_num_ijyu{
+    -webkit-box-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+      margin: 0px;
+      box-sizing: border-box;
+      -webkit-box-flex: 0;
+      flex-grow: 0;
+      max-width: 33.3333%;
+      flex-basis: 33.3333%;
+  }
+  .time__time , .date__span_date{
+    font-family: Calibre, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #52524f
+  }
+  .full_time_j{
+    font-family: CalibreMedium, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .hftyui{
+    display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      line-height: 100%;
+      font-size: 48px;
+    
+  }

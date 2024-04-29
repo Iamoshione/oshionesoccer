@@ -1,0 +1,18 @@
+.search-container {
+  background-color: #22292e;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+}
+
+.css-1bpne2x-control {
+  z-index: 9999;
+}
+.css-b62m3t-container {
+  padding: 8px;
+  margin-left: 73%;
+}

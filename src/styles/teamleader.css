@@ -1,0 +1,258 @@
+.player_name_section{
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+  .player__stats_schedule{
+    display: block;
+    flex: none;
+      width: 300px;
+  }
+  .athlete_wrapper{
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+    display: flex;
+  }
+  .athlete_name{
+    align-items: baseline;
+    display: flex;
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  .athlete_player_name{
+    max-width: 160px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap
+  }
+  .athlete_player_position{
+    margin-left: 4px !important;
+    display: inline;
+    color: #6c6d6f;
+  }
+  .athelte_stats{
+    margin-top: 4px !important;
+    color: #6c6d6f;
+  }
+  .athlete_matches_ga{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .athlete_assits{
+    padding-right: 8px !important;
+    color: #151617;
+    font-weight: 600;
+    font-size: 28px;
+  }
+   
+  
+      .athlete_matches{
+        color: #6c6d6f;
+        text-align: right !important;
+      }
+      .game_games_athlete{
+        text-align: right !important;
+        font-weight: 400;
+        color: #6c6d6f;
+        line-height: 13px;
+        font-size: 11px;
+      }
+      .athlete_span_game{
+        color: #151617;
+        margin-left: 4px !important;
+        font-weight: 600;
+        line-height: 13px;
+        font-size: 11px;
+        text-align: right !important;
+      }
+      .card_teamLeaders{
+        background-color: #fff;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+      }
+      .teamleaders_cardheader{
+        padding-bottom: 0 !important;
+        border: 0 !important;
+        display: flex;
+          justify-content: space-between;
+          margin-left: 16px;
+          margin-right: 12px;
+          min-height: 44px;
+          padding: 16px 0 15px;
+          align-items: center;
+      }
+      .card_header_title_wrapper{
+        flex-grow: 1;
+          text-align: left;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-box-flex: 1;
+      }
+      .card_h3_title{
+        color: #151617;
+        font-family: BentonSans, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+      }
+      .card_h4_title{
+        color: #6c6d6f;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 11px;
+        margin-top: 2px;
+      }
+      .card__tabs{
+        border-color: #edeef0;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        display: block;
+      }
+      .tabs__list{
+        display: flex;
+          font-size: 13px;
+      }
+      .tabs__list:hover .tabs__list__item--active:hover {
+        border-color: #c00;
+        border-width: 2px;
+      }
+      .tabs__list__item--active{
+        border-color: #c00 !important;
+        border-width: 2px !important;
+      }
+      .tabs__list__item--active, .tabs__list__item--active:hover {
+        border-color: #dcdddf;
+        border-width: 4px;
+      }
+      .tabs__list__item {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-flex-preferred-size: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        border-bottom: 0 solid transparent;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-basis: 100%;
+        flex-grow: 1;
+        font-family: BentonSans, sans-serif;
+        height: 41px;
+        justify-content: center;
+        list-style: none;
+        position: relative;
+        text-align: center;
+        -webkit-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+      }
+      .tabs__list__item:not(.tabs__list__item--active) {
+        padding-bottom: 0;
+      }
+      .tabs__list__item {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-flex-preferred-size: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        border-bottom: 0 solid transparent;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-basis: 100%;
+        flex-grow: 1;
+        font-family: BentonSans, sans-serif;
+        height: 41px;
+        justify-content: center;
+        list-style: none;
+        position: relative;
+        text-align: center;
+        -webkit-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+      }
+      .tabs__list__item a.tabs__link, .tabs__list__item button.tabs__link {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 37px;
+        justify-content: center;
+        padding: 0 12px;
+        white-space: nowrap;
+        width: 100%;
+      }
+      .tabs__list__item--active .tabs__link {
+        color: #151617;
+      }
+      .tabs__link {
+        color: #a5a6a7;
+        display: block;
+        font-size: 12px;
+        font-weight: 800;
+        padding: 12px;
+        text-decoration: none;
+      }
+      .Button, .Button--unstyled {
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+      }
+      .Button--unstyled {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+      }
+      .tabs__list__item--active .tabs__link {
+        color: #151617;
+      }
+      .Button--unstyled {
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+      }
+      .Button--unstyled {
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+      }
+      .tabs_section_list {
+        overflow: hidden;
+        padding: 10px 12px;
+        position: relative;
+      }
+      .tabs_footer{
+        display: flex;
+      font-size: 12px;
+      justify-content: center;
+      margin: 0 12px;
+      padding: 10px 0;
+      border-top: 1px dotted #b5b7b7;
+      }
+      .tabs_footer>a {
+        display: inline-block;
+        font-weight: 600;
+        text-align: center;
+    }
+  
+    .footer__link {
+      color: #06c;
+      cursor: pointer;
+      text-decoration: none;
+     font-size: 12px;
+     font-family: Arial;
+  }
