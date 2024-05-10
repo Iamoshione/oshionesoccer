@@ -411,3 +411,28 @@
       font-size: 48px;
     
   }
+.jjokocha{
+  margin-top: 15px;
+
+ 
+}
+.byobhah{
+  display: flex;
+padding: 2em;
+}
+
+.wdcvg{
+
+  margin-right: 5px ;
+}
+.player-view .player{
+  font-size: 9px !important;
+  font-weight: 900 !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+.player-view{
+  height: 10% !important;
+}
+.pitch.small{
+  width: 400px !important;
+}

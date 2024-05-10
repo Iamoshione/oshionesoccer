@@ -292,6 +292,28 @@ function Versus() {
             </div>
           </div>
         </div>
+    <div className="jjokocha">
+      <div className="byobhah">
+        <div className="wdcvg">
+        <SoccerLineUp
+            homeTeam={{
+              squad: homeSquad,
+              style: homeStyle ,
+            }}
+            size={"small"}
+          ></SoccerLineUp>
+        </div>
+        <div>
+        <SoccerLineUp
+            homeTeam={{
+              squad: awaySquad,
+              style: awayStyle,
+            }}
+            size="small"
+          ></SoccerLineUp>
+        </div>
+      </div>
+    </div>
       </>
     );
   });

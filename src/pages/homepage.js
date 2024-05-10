@@ -11,7 +11,6 @@ function Homepage() {
       <Navbar></Navbar>
       <Mycarousel></Mycarousel>
       <div>
-        <QuickLinks></QuickLinks>
         <News></News>
       </div>
     </div>

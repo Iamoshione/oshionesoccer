@@ -1,13 +1,33 @@
 import "./../../styles/navbar.css";
 import { premleauge } from "../../leauges/premierleauge";
-
+import { majorls } from "../../leauges/mls";
+import { laliga } from "../../leauges/laliga";
+import { deb } from "../../leauges/germantabl";
 function Navbar() {
   const premleaugemapped = premleauge.map((club) => (
     <div className="list-item">
-      <img src={club.imgUrl}></img>
+      <img src={club.imgUrl} style={{width:'28px'}}></img>
       {club.name}
     </div>
   ));
+  const majorlsmapped = majorls.map((club)=>(
+    <div className="col-md-3">
+      <img src={club.imgUrl} style={{width:'28px'}}></img>
+      {club.name}
+    </div>
+  ));
+  const laligamapped = laliga.map((club)=>(
+    <div className="col-md-3">
+      <img src={club.imgUrl} style={{width:'28px'}}></img>
+      {club.name}
+    </div>
+  ))
+  const debMapped = deb.map((club)=>(
+    <div className="col-md-3">
+      <img src={club.imgUrl} style={{width:'28px'}}></img>
+      {club.name}
+    </div>
+  ))
   return (
     <>
       <header class="header">
@@ -31,14 +51,20 @@ function Navbar() {
                   <li className="menu-item-has-children">
                     <a href="#">MLS</a>
                     <div className="sub-menu mega-menu mega-menu-column-4">
-                      {premleaugemapped}
+                  {majorlsmapped}
                     </div>
                   </li>
                   <li className="menu-item-has-children">
                     <a href="#">ESP</a>
+                    <div className="sub-menu mega-menu mega-menu-column-4">
+                  {laligamapped}
+                    </div>
                   </li>
                   <li className="menu-item-has-children">
                     <a href="#">DEB</a>
+                    <div className="sub-menu mega-menu mega-menu-column-4">
+                      {debMapped}
+                    </div>
                   </li>
                   <li className="menu-item-has-children">
                     <a href="#">FRL1</a>

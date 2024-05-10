@@ -10,7 +10,9 @@ function Newslist() {
   return (
     <>
     <div className="news-container" style={{display:'flex'}}>
-      <div> {data.article.map((article) => (
+      <div> {data.article.map((article) => {
+        if(article.urlToImage){
+       return  (
         <div>
            <div
           class="card mb-3"
@@ -31,7 +33,9 @@ function Newslist() {
           </Link>
         </div>
         </div>
-      ))}</div>
+      )
+        }
+      })}</div>
   
      
     </div>
