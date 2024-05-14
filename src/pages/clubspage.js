@@ -4,25 +4,26 @@ import Mycarousel from "../components/ui/carousel";
 import Schedule from "../components/ui/schedule";
 import Table from "../components/ui/table";
 import TeamLeader from "../components/ui/teamleaders";
+import './../styles/clubpage.css'
 
-function ClubPage(){
-
-
-
-
-    return (
-        <>
-        <div>
-        <div style={{display:'flex',justifyContent:'space-between'}}>
+function ClubPage() {
+  return (
+    <>
+      <div className="clubpage-container ft" >
+        <div className="pageclubb layoutclubpage">
+          <div className="myncths">
             <Schedule></Schedule>
+          </div>
+
+          <div className="ctepose">
             <Table></Table>
+          </div>
+          <div className="vhfppa">
             <TeamLeader></TeamLeader>
+          </div>
         </div>
-        </div>
-      
-      
- 
-        </>
-    )
+      </div>
+    </>
+  );
 }
 export default ClubPage;

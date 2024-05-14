@@ -1,0 +1,9 @@
+
+.pageclubb {
+    display: flex;
+    justify-content: space-between;
+
+}
+.clubpage-container {
+    padding: 20px;
+}

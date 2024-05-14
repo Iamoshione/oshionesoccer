@@ -120,7 +120,7 @@ function Playerstats(){
         <div className="layout_layout__column">
           <section className="card__card">
             <div className="wrapper__card_content">
-              <div className="team_name__name "><h1 className="card_h1_h1">{name}</h1></div>
+              <div className="team_name__name "><h1 className="card_h1_h1">{name} {isscoringVisible?'Scoring':'Discipline'}</h1></div>
               <div className='scoring_discipline_tabs'>
                 <div className='score__tabs_iiop'>
                   <ul className='tabs__list_iuyefc'>

@@ -1,9 +1,10 @@
 import { Link, useParams } from "react-router-dom";
 import UseCustomState from "../../hooks/usecustomstate";
-import Jerseyicon from "../../utils/jersyeicon";
+
 import useCustomQuery from "../../hooks/usecustomquery";
 import './../../styles/teamleader.css'
 import { GET_PLAYER_STATS } from "../../queries/playerstatquery";
+import Jerseyicon from "../../utils/jersyeicon";
 
 function TeamLeader(){
     const [goal, setGoal] = UseCustomState(true)
@@ -44,8 +45,9 @@ function TeamLeader(){
       .map((player) => {
         return (
           <div key={player.Name} className="player_name_section">
+          
           <div className="player_jersey">
-         <Jerseyicon></Jerseyicon>
+       <Jerseyicon></Jerseyicon>
         </div>
         <div className="athlete_wrapper">
           <h3 className="athlete_name">
@@ -81,7 +83,7 @@ function TeamLeader(){
           return (
             <div key={player.Name} className="player_name_section">
                 <div className="player_jersey">
-               <Jerseyicon></Jerseyicon>
+           <Jerseyicon></Jerseyicon>
               </div>
               <div className="athlete_wrapper">
                 <h3 className="athlete_name">

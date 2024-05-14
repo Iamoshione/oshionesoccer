@@ -66,7 +66,7 @@
   }
   .link_link_yytsi{
     top: 44px;
-    z-index: 1000000;
+    z-index: 1;
     position: -webkit-sticky; 
     position: sticky; 
   }
@@ -88,14 +88,7 @@
     align-items: center;
     display: flex;
   }
-  @keyframes pageMounted {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+
   .crdfgve{
     margin: 0 !important;
     overflow: hidden;
@@ -117,12 +110,7 @@
     line-height: 19px;
     font-size: 14px;
   }
-  .link_sticky_containe{
-    top: 88px;
-    z-index: 999999;
-    position: -webkit-sticky; 
-    position: sticky; 
-  }
+ 
   .a__aa_team{
     outline: 0;
   

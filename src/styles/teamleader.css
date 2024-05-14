@@ -47,6 +47,13 @@
     font-weight: 600;
     font-size: 28px;
   }
+  .player_jersey{
+    height: 56px;
+    width: 56px;
+    position: relative;
+    margin-right: 8px !important;
+    flex: none;
+  }
    
   
       .athlete_matches{

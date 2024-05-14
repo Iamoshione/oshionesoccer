@@ -6,12 +6,13 @@ import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import 'react-soccer-lineup'
 import App from "./App";
+import { useState } from "react";
 
 import reportWebVitals from "./reportWebVitals";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/graphql",
+  uri: "http://10.30.207.67:4000/graphql",
   cache: new InMemoryCache(),
 });
 

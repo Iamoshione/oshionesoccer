@@ -9,6 +9,7 @@ function Homepage() {
     <div>
       <Searchbar></Searchbar>
       <Navbar></Navbar>
+ 
       <Mycarousel></Mycarousel>
       <div>
         <News></News>

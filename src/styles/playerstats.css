@@ -33,7 +33,7 @@
     .team_name__name{
       margin-top: 8px !important;
       margin-bottom: 16px !important;
-      
+     font-family: Arial, Helvetica, sans-serif;
       justify-content: space-between;
       align-items: flex-start;
       flex-direction: column;
