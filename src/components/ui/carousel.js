@@ -10,7 +10,7 @@ function Mycarousel() {
     loading: loadingTeamInfo,
     error: teamError,
     data: teamData,
-  } = useCustomQuery(GET_TEAM_INFO, { variables: { competition: "epl" } });
+  } = useCustomQuery(GET_TEAM_INFO, { variables: { competition: "ESP" } });
   if (loadingTeamInfo) <p>loading...</p>;
   if (teamError) <p>error fetching data</p>;
   const scrollLeft = () => {
@@ -54,7 +54,7 @@ function Mycarousel() {
     );
     return (
       <>
-          <Link to={`/soccer/match/epl/${team.GameId}`} className="cWMvwC ">
+          <Link to={`/soccer/match/esp/${team.GameId}`} className="cWMvwC ">
           <div className="sc-ae68ee86-0 sc-65cacb3-2 lfBOkN hecnsm">
             <div className="dKAJxh">
               <div className="sc-ae68ee86-0 sc-65cacb3-8 ddDfDQ dOidzo">

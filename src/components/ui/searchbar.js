@@ -15,7 +15,8 @@ function Searchbar() {
       if (validation.test(inputValue)) {
         return fetch(
           `
-              ${teamsapi}/${inputValue}?key=48e0a108abfa41d99adf4abf9934efcc`
+              ${teamsapi}/${inputValue}?key=c31aeae5ee5a4d48aecbd09e94ebc7fc
+              `
         )
           .then((response) => response.json())
           .then((response) => {
