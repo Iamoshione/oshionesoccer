@@ -35,7 +35,7 @@ function Mycarousel() {
   const currentDate = new Date();
   
   const oneWeeksAgo = new Date();
-  oneWeeksAgo.setDate(currentDate.getDate() - 14);
+  oneWeeksAgo.setDate(currentDate.getDate() - 21);
 
   const teamDataFiltered = teamData?.teamInfo[0]?.Games.filter((game) => {
     const gameDate = new Date(game?.DateTime);

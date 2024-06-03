@@ -20,7 +20,7 @@ function Schedule() {
     variables: { competition: inputValue },
   });
   useEffect(() => {
-    // Set loaded state to true after component mounts
+ 
     setLoaded(true);
   }, []);
   if (loadingTeamInfo) return <Skeleton count={5}></Skeleton>
