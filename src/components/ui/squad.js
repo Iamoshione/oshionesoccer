@@ -108,7 +108,7 @@ function Squad() {
     <>
       <table className="table">
         <thead>
-          <h1>Goalkeepers</h1>
+          <h2 className="pligc" style={{marginTop:'18px'}}>GOALKEEPERS</h2>
           <tr>
             <th scope="col">Name</th>
             <th scope="col">P</th>
@@ -125,7 +125,7 @@ function Squad() {
           </tr>
         </thead>
         <tbody> {goalkeeper}</tbody>
-        <h1>Outfield Players</h1>
+        <h2 className="pligc"  style={{marginTop:'18px',marginBottom:'18px'}}>OUTFIELD PLAYERS</h2>
         <tbody>{outfieldPlayers}</tbody>
       </table>
     </>

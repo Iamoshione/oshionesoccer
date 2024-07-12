@@ -56,14 +56,7 @@ function Teamheader() {
                   <span>Home</span>
                 </Link>
               </li>
-              <li className="li__oopw">
-                <Link
-                  to={`/soccer/team/${clubId}/${inputValue}/fixtures`}
-                  className="a__aa_team"
-                >
-                  <span>Fixtures</span>
-                </Link>
-              </li>
+           
               <li className="li__oopw">
                 <Link
                   to={`/soccer/team/${clubId}/${inputValue}/squads`}
