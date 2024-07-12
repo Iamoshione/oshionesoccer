@@ -10,8 +10,8 @@ function Homepage() {
       <Searchbar></Searchbar>
       <Navbar></Navbar>
  
-      <Mycarousel></Mycarousel>
-      <div>
+     
+      <div style={{padding:'10px'}}>
         <News></News>
       </div>
     </div>

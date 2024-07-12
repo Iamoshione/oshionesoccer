@@ -52,7 +52,7 @@ function Mycarousel() {
     const awayTeamspic = teamsArr.find(
       (club) => club?.TeamId == team?.AwayTeamId
     );
-    return (
+   return (
       <>
           <Link to={`/soccer/match/esp/${team.GameId}`} className="cWMvwC ">
           <div className="sc-ae68ee86-0 sc-65cacb3-2 lfBOkN hecnsm">
@@ -103,7 +103,7 @@ function Mycarousel() {
     );
   });
 
-  return (
+/*return (
     <>
       <div className="dxuWPS">
         <div className="bdUdHw">
@@ -138,7 +138,8 @@ function Mycarousel() {
         </div>
       </div>
     </>
-  );
+); 
+*/
 }
 
 export default Mycarousel;
