@@ -5,8 +5,10 @@ import Schedule from "../components/ui/schedule";
 import Table from "../components/ui/table";
 import TeamLeader from "../components/ui/teamleaders";
 import './../styles/clubpage.css'
+import CopyRight from "../components/ui/copyright";
 
 function ClubPage() {
+
   return (
     <>
       <div className="clubpage-container ft" >
@@ -22,6 +24,7 @@ function ClubPage() {
             <TeamLeader></TeamLeader>
           </div>
         </div>
+  
       </div>
     </>
   );

@@ -1,12 +1,26 @@
 
 .pijnhg{
     padding: 20px;
+    margin: 30px 10px 30px 10px;
 }
 
 .card-title{
+    padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 19px;
     font-weight: 400;
-    color: rgb(31, 31, 30);
-    
+    color: rgb(31, 31, 30); 
+    transition: transform 0.3s ease-in-out
+}
+
+.card-title:hover{
+text-decoration: underline;
+}
+
+.card-img {
+    transition: transform 0.5s ease-in-out; /* Apply transition to the transform property */
+}
+
+.card-img:hover {
+    transform: scale(1.06); /* Scale the image to 120% on hover */
 }

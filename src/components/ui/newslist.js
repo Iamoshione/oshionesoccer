@@ -21,6 +21,7 @@ function Newslist() {
     <>
     <div className="pijnhg"> 
     <div className="row row-cols-1 row-cols-md-4 g-4">
+
         {data.article.map((article) => {
           if (article.urlToImage) {
             return (
@@ -34,10 +35,8 @@ function Newslist() {
                         alt="Article Image"
                         style={{ width: "100%", height:'4.5cm'}} 
                       />
-
                       <div class="card-body">
                         <h5 class="card-title">{article.title}</h5>
-                 
                       </div>
                     </div>
                   </div>
@@ -47,7 +46,6 @@ function Newslist() {
           }
         })}
       </div></div>
-     
     </>
   );
 }

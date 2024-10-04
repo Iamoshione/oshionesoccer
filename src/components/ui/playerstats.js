@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import UseCustomState from "../../hooks/usecustomstate";
 import './../../styles/playerstats.css'
 function Playerstats(){
+
     const parameters = useParams();
     const [isscoringVisible, setisscoringVisible] = UseCustomState(true);
     const {inputValue,clubId,name} = parameters
@@ -23,8 +24,6 @@ function Playerstats(){
     const playerSeasonStats = playerStatsData?.playerSeasonStats;
     console.log(playerSeasonStats);
   
-  
-  
     const playerGoals =
       playerSeasonStats &&
       playerSeasonStats[0].PlayerSeasons.filter(
@@ -32,6 +31,7 @@ function Playerstats(){
       )
         .sort((a, b) => b.Goals - a.Goals)
         .map((player, index) => (
+
           <tr>
             <td scope="row" className="table__table_data_data">{index + 1}</td>
             <td className="table__table_data_data"><span>
@@ -46,7 +46,9 @@ function Playerstats(){
               
               </td>
           </tr>
+
         ));
+
     const playerAssits =
       playerSeasonStats &&
       playerSeasonStats[0].PlayerSeasons.filter(
@@ -54,6 +56,7 @@ function Playerstats(){
       )
         .sort((a, b) => b.Assists - a.Assists)
         .map((player, index) => (
+
           <tr>
           <td scope="row" className="table__table_data_data">{index + 1}</td>
           <td className="table__table_data_data"><span>
@@ -61,14 +64,14 @@ function Playerstats(){
             </span></td>
           <td className="table__table_data_data ffvgt">
             <span className="tartar__span">  {player.Games}</span>
-          
             </td>
           <td className="table__table_data_data ffvgt">
             <span className="tartar__span">{parseInt(player.Assists)}</span>
-            
             </td>
         </tr>
+
         ));
+
     const playerDiscipline =
       playerSeasonStats &&
       playerSeasonStats[0].PlayerSeasons.filter(
@@ -93,25 +96,20 @@ function Playerstats(){
             <span className="tartar__span">    {parseInt(player.RedCards + player.YellowRedCards)}</span>
       
             </td>
-         
         </tr>
           
         ));
-  
-  
-  
-  
-  
     const handleScoreOnClick = () => {
       if (!isscoringVisible) {
         setisscoringVisible(true);
       }
     };
+
     const handleDisciplineOnClick = () => {
       if (isscoringVisible) {
         setisscoringVisible(false);
       }
-    };
+    }; 
   
     return (
       <>
@@ -296,6 +294,7 @@ function Playerstats(){
     </div>
       </>
     );
+    
 }
 
 export default Playerstats

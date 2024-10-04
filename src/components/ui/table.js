@@ -24,7 +24,7 @@ function Table() {
         <span className="visually-hidden">Loading...</span>
       </div>
     );
-  if (standingsError || teamInfoError) return <p>error</p>;
+  if (standingsError || teamInfoError) return <p>Nothing to display...</p>;
   const { standings_feed } = standingsData;
   return (
     <section>

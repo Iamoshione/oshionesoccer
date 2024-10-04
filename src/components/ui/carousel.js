@@ -10,9 +10,10 @@ function Mycarousel() {
     loading: loadingTeamInfo,
     error: teamError,
     data: teamData,
-  } = useCustomQuery(GET_TEAM_INFO, { variables: { competition: "ESP" } });
+  } = useCustomQuery (GET_TEAM_INFO, { variables: { competition: "ESP" } });
   if (loadingTeamInfo) <p>loading...</p>;
   if (teamError) <p>error fetching data</p>;
+
   const scrollLeft = () => {
     const scrollContainer = scrollContainerRef.current;
     if (scrollContainer) {
@@ -32,6 +33,7 @@ function Mycarousel() {
       });
     }
   };
+
   const currentDate = new Date();
   
   const oneWeeksAgo = new Date();
@@ -41,6 +43,9 @@ function Mycarousel() {
     const gameDate = new Date(game?.DateTime);
     return gameDate >= oneWeeksAgo && gameDate <= currentDate;
   });
+  
+
+  
   console.log("teamdatafilterd", teamDataFiltered);
   const teamsArr = teamData?.teamInfo[0]?.Teams;
 
@@ -49,9 +54,11 @@ function Mycarousel() {
     const homeTeamspic = teamsArr.find(
       (club) => club?.TeamId == team?.HomeTeamId
     );
+
     const awayTeamspic = teamsArr.find(
       (club) => club?.TeamId == team?.AwayTeamId
     );
+
    return (
       <>
           <Link to={`/soccer/match/esp/${team.GameId}`} className="cWMvwC ">
@@ -87,11 +94,12 @@ function Mycarousel() {
                       <img
                         className="img-logo"
                         src={awayTeamspic.WikipediaLogoUrl}
+                      
                       ></img>
                     </div>
                   </div>
                   <div className="bNUHdj ">
-                    <div className="iZbOpO">{team.AwayTeamKey}</div>
+                    <div className="iZbOpO"> hello{team.AwayTeamKey}</div>
                     {team.AwayTeamScore}
                   </div>
                 </div>

@@ -1,0 +1,12 @@
+.copyright-info{
+   font-size: medium;
+    padding: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;;
+    text-align: center;
+}
+
+.copyright-info-wrapper{
+    background-color: #1f2327;  
+    margin-top: 20px;  
+}

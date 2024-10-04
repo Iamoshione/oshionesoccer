@@ -12,9 +12,7 @@ function Navbar() {
       <Link to={`/soccer/team/${club.clubId}/EPL/${club.name}`}>
         <div className="nhagt">  <img src={club.imgUrl} style={{width:'28px'}}></img>
       {club.name}</div>
-    
       </Link>
-     
     </div>
   ));
   const majorlsmapped = majorls.map((club)=>(

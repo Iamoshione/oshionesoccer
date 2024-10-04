@@ -15,7 +15,7 @@ function TeamLeader(){
         data: playerStatsData,
         error: playerStatsError,
       } = useCustomQuery(GET_PLAYER_STATS, {
-        variables: { competition: inputValue, year: 2024 },
+        variables: { competition: inputValue, year: 2025 },
       });
       if(loadingPlayerStats) return <div className="spinner-border" role="status">
       <span className="visually-hidden">Loading...</span>
@@ -29,13 +29,14 @@ function TeamLeader(){
           setGoal(!goal);
         }
       };
+
       const handleGoalOnClick = () => {
         if (goal === false) {
           setGoal(!goal);
         }
       };
       
-      const playerGoals =
+    const playerGoals =
     playerStatsData?.playerSeasonStats &&
     playerSeasonStats[0]?.PlayerSeasons.filter(
       (player) => clubId == player?.TeamId
@@ -43,6 +44,7 @@ function TeamLeader(){
       .sort((a, b) => b.Goals - a.Goals)
       .slice(0, 3)
       .map((player) => {
+        
         return (
           <div key={player.Name} className="player_name_section">
           

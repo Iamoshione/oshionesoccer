@@ -3,6 +3,7 @@ import { GET_PLAYER_STATS } from "../../queries/playerstatquery";
 import { useParams } from "react-router-dom";
 import useCustomQuery from "../../hooks/usecustomquery";
 import { useEffect } from "react";
+import "./../../styles/squad.css"
 
 function Squad() {
   const parameter = useParams();
@@ -20,7 +21,7 @@ function Squad() {
     data: playerStatsData,
     refetch: refetchStatsData,
   } = useCustomQuery(GET_PLAYER_STATS, {
-    variables: { competition: inputValue, year: 2024 },
+    variables: { competition: inputValue, year: 2025 },
   });
   useEffect(() => {
     refetchStatsData();
@@ -30,7 +31,7 @@ function Squad() {
     <div className="spinner-border" role="status">
       <span className="visually-hidden">Loading...</span>
     </div>;
-  if (teamInfoError || playerStatsError) <p>Error fetching data...</p>;
+  if (teamInfoError || playerStatsError) <p>Nothing to display...</p>;
 
   console.log(playerStatsData);
   console.log("teaminfo", teamInfoData);
@@ -106,9 +107,10 @@ function Squad() {
 
   return (
     <>
-      <table className="table">
+    <div className="table-wrapper">
+    <table className="table">
         <thead>
-          <h2 className="pligc" style={{marginTop:'18px'}}>GOALKEEPERS</h2>
+          <h3 className="pligc" style={{marginTop:'18px'}}>GOALKEEPERS</h3>
           <tr>
             <th scope="col">Name</th>
             <th scope="col">P</th>
@@ -125,9 +127,11 @@ function Squad() {
           </tr>
         </thead>
         <tbody> {goalkeeper}</tbody>
-        <h2 className="pligc"  style={{marginTop:'18px',marginBottom:'18px'}}>OUTFIELD PLAYERS</h2>
+        <h3 className="pligc"  style={{marginTop:'18px',marginBottom:'18px'}}>OUTFIELD PLAYERS</h3>
         <tbody>{outfieldPlayers}</tbody>
       </table>
+    </div>
+    
     </>
   );
 }
